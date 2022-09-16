@@ -1,0 +1,18 @@
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"); */
+
+
+
+body{
+  font-family:initial;
+}
+
+.bigIcon{
+  font-size: 50px;
+}
+.redIcon{
+  color: red;
+}
+.italicIcon{
+  font-style: italic;
+}
+
