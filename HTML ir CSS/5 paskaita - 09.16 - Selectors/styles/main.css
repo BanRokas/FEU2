@@ -57,3 +57,62 @@ li:hover{
   background-color: rgb(186, 249, 249);
   color: orange;
 }
+
+.nth_lentele > table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0 auto 50px;
+  /* overflow: hidden; */
+}
+.nth_lentele th, .nth_lentele td{
+  border: 1px solid black;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+}
+.nth_lentele th{
+  background-color: white;
+}
+
+/* komentavimo trumpinys - CTRL / */
+/* .nth_lentele tbody > tr:nth-child(3){
+  color: red;
+  background-color: rgb(132, 255, 255);
+} */ 
+/* 
+  2n - even - lyginiai
+  2n+1 - odd - nelyginiai
+*/
+/* .nth_lentele tbody > tr:nth-child(2n+1){
+  color: red;
+  background-color: rgb(132, 255, 255);
+}
+.nth_lentele tbody > tr:nth-child(2n){
+  color: aqua;
+  background-color: rgb(255, 141, 141);
+} */
+
+/* .nth_lentele tbody > tr:nth-child(1n+3){
+  color: red;
+  background-color: rgb(132, 255, 255);
+} */
+
+.nth_lentele tbody > tr:hover{
+  background-color: bisque;
+}
+
+/* .nth_lentele td::after{
+  content: " :)";
+} */
+
+.nth_lentele td:hover::before {
+  background-color: rgb(132, 255, 255);
+  content: '';
+  position: absolute;
+  height: 10000px;
+  top: -5000px;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
