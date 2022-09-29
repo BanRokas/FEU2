@@ -1,0 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: rgb(57, 56, 56);
+  height: 1000vh;
+}
